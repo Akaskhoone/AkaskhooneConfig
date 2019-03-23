@@ -1,0 +1,10 @@
+[Unit]
+Description=akaskhoone gunicorn
+
+[Service]
+Type=simple
+User=aasmpro
+ExecStart=/home/aasmpro/akaskhoone_server/akaskhoone_gunicorn.sh
+
+[Install]
+WantedBy=multi-user.target
